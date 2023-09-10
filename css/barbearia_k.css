@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 
-:root{
+:root {
     --cor1: #65818C;
     --cor2: #262625;
     --cor3: #A6907C;
@@ -11,7 +11,7 @@
 
 
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     background-image: linear-gradient(180deg, white, #a6907c6e, #8c4e3744);
@@ -20,7 +20,7 @@ body{
 
 
 /*HEADER INICIO*/
-header{
+header {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -30,16 +30,16 @@ header{
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.199);
 }
 
-.flex-header_item_logo{
+.flex-header_item_logo {
     flex-grow: 1;
 }
 
-.flex-header_item_nav{
+.flex-header_item_nav {
     flex-grow: 1;
 
 }
 
-.flex-header_item_social{
+.flex-header_item_social {
     flex-grow: 0;
     margin: 0px 5px 0px 5px;
 }
@@ -49,14 +49,14 @@ header{
 }
 
 
-#logo img{
+#logo img {
     max-width: 120px;
     width: 90px;
     padding: 5px;
 }
 
 
-nav> a{
+nav>a {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
@@ -65,7 +65,7 @@ nav> a{
     text-align: center;
 }
 
-nav > a:hover{
+nav>a:hover {
     background-color: var(--cor3);
     padding: 5px;
     border-radius: 5px;
@@ -75,7 +75,7 @@ nav > a:hover{
 /*Header FIM*/
 
 /*Main Principal*/
-main{
+main {
     margin: auto;
     max-width: 900px;
     min-width: 320px;
@@ -85,25 +85,25 @@ main{
 }
 
 
-main h1{
+main h1 {
     font-family: 'Monoton', cursive;
     color: var(--cor5);
- 
+
 
 }
 
-p{
+p {
     line-height: 2em;
 }
 
 /*FIM MAIN PRINCIPAL*/
 
 /*APRESENTAÇÃO*/
-.flex_apresentacao{
-    padding: 5px;
+.flex_apresentacao {
+    padding: 50px;
     margin: 10px 0px;
     display: flex;
-    flex-flow:  row wrap;
+    flex-flow: row wrap;
     align-items: center;
     align-content: space-between;
     justify-content: center;
@@ -111,16 +111,14 @@ p{
     column-gap: 5px;
 }
 
-.flex_titulo h1{
+.flex_titulo h1 {
     border-bottom: solid 2px var(--cor5);
 
 }
 
-.flex_apresentacao_fotos{
+.flex_apresentacao_fotos {}
 
-}
-
-.flex_apresentacao_p{
+.flex_apresentacao_p {
     font-weight: 500;
     font-size: 1.2em;
 
@@ -160,12 +158,14 @@ p{
 
 
 .flex_apresentacao_fotos3:hover {
-    transform: scale(1.2);
+    transform: scale(110%);
     transition: 1s;
+
+
 }
 
 
-.flex_apresentacao_fotos4{
+.flex_apresentacao_fotos4 {
     flex-grow: 1;
     width: 300px;
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.199);
@@ -174,12 +174,12 @@ p{
 }
 
 .flex_apresentacao_fotos4:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     margin: 25px;
     transition: 1s;
 }
 
-.flex_apresentacao_fotos5{
+.flex_apresentacao_fotos5 {
     flex-grow: 1;
     width: 300px;
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.199);
@@ -188,13 +188,13 @@ p{
 
 
 .flex_apresentacao_fotos5:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     margin: 25px;
     transition: 1s;
 }
 
 
-.flex_apresentacao_fotos6{
+.flex_apresentacao_fotos6 {
     flex-grow: 0;
     width: 300px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.199);
@@ -206,7 +206,7 @@ p{
 
 
 
-.figura{
+.figura {
     position: relative;
     width: 100%;
     max-width: 800px;
@@ -215,26 +215,26 @@ p{
 
 }
 
-.figura > img {
+.figura>img {
     position: relative;
     width: 100%;
     max-width: 800px;
 }
 
-.legenda{
+.legenda {
     color: rgba(255, 255, 255, 0);
     position: absolute;
     top: 5px;
     border: 0px;
     width: 100%;
-    
 
-    
+
+
 
 
 }
 
-.figura:hover > .legenda{
+.figura:hover>.legenda {
     display: block;
     position: absolute;
     top: 0px;
@@ -247,7 +247,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.301);
     text-align: center;
-    
+
 }
 
 
@@ -258,7 +258,7 @@ p{
 
 /*Cards*/
 
-.flex_section_cards{
+.flex_section_cards {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -269,7 +269,7 @@ p{
     margin: 5px 5px;
 }
 
-.flex_titulo_cards{
+.flex_titulo_cards {
     max-width: 900px;
     width: 900px;
     flex-grow: 2;
@@ -279,7 +279,7 @@ p{
 
 }
 
-.flex_card_cabelo{
+.flex_card_cabelo {
     max-width: 400px;
     min-width: 250px;
     width: 250px;
@@ -291,7 +291,7 @@ p{
 
 }
 
-.flex_card_cabelo h1{
+.flex_card_cabelo h1 {
     border-bottom: 2px dashed var(--cor5);
 }
 
@@ -314,7 +314,7 @@ p{
 
 
 
-.flex_botao_cards{
+.flex_botao_cards {
     margin: 10px 5px;
     width: 800px;
 
@@ -336,7 +336,7 @@ p{
 }
 
 
-#card_cabelo{
+#card_cabelo {
     text-align: center;
     background-image: linear-gradient(180deg, #a8d4e663, #65818c5d);
     border-top: 6px solid var(--cor5);
@@ -344,7 +344,7 @@ p{
 
 }
 
-#card_cabelo li{
+#card_cabelo li {
     list-style: none;
     margin: 10px 2px;
     padding: 5px 5px;
@@ -367,7 +367,7 @@ p{
     font-weight: bold;
 }
 
-main ul img{
+main ul img {
     max-width: auto;
     max-height: auto;
 }
@@ -405,7 +405,7 @@ main ul img{
 }
 
 
-#box_video{
+#box_video {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -414,17 +414,17 @@ main ul img{
     padding: 10px 0px;
 }
 
-#box_video_iframe{
+#box_video_iframe {
     align-self: center;
     width: 100%;
     height: 600px;
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.288);
-    
+
 }
 
 
 
-footer{
+footer {
     background-color: var(--cor5);
     color: var(--cor4);
     width: 100%;
@@ -435,7 +435,7 @@ footer{
 
 
 
-.container_contato{
+.container_contato {
     text-align: center;
     display: flex;
     flex-flow: row wrap;
@@ -444,7 +444,7 @@ footer{
 
 }
 
-.ul_contato{
+.ul_contato {
     list-style: none;
     border: 2px dashed var(--cor4);
     padding: 5px;
@@ -454,25 +454,25 @@ footer{
 
 }
 
-.li_contato{
+.li_contato {
     margin-top: 5px;
     padding: 5px 5px;
 }
 
-.ul_horario{
+.ul_horario {
     list-style: none;
     border: 2px dashed var(--cor4);
     padding: 5px;
     margin: 5px;
 }
 
-.li_horario{
+.li_horario {
     margin-top: 5px;
     padding: 5px 5px;
     font-weight: bold;
 }
 
-.credito{
+.credito {
     text-align: center;
     padding: 5px;
 
